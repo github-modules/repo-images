@@ -1,0 +1,21 @@
+{
+  "name": "repo-images",
+  "version": "1.0.0",
+  "description": "Collect all the image file URLs in a GitHub repository",
+  "main": "index.js",
+  "repository": "https://github.com/zeke/repo-images",
+  "author": "zeke",
+  "license": "MIT",
+  "dependencies": {
+    "gh-got": "^5.0.0",
+    "pify": "^2.3.0"
+  },
+  "scripts": {
+    "test": "node test.js | tap-spec && standard"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
