@@ -18,6 +18,20 @@ repoImages('user/repo').then(images => {
 })
 ```
 
+Each object in the returned array has this structure:
+
+```js
+{
+  path: 'build/icon.icns',
+  mode: '100644',
+  type: 'blob',
+  sha: '3e7e2a36f9d1a5dfcaae886d0c0e5043b3ffee6a',
+  size: 1192844,
+  url: 'https://api.github.com/repos/ummoji/ummoji-desktop/git/blobs/3e7e2a36f9d1a5dfcaae886d0c0e5043b3ffee6a',
+  rawgit: 'https://cdn.rawgit.com/ummoji/ummoji-desktop/master/build/icon.icns'
+}
+```
+
 The default branch is `master`, but you can override it:
 
 ```js
