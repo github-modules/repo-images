@@ -1,6 +1,6 @@
 {
   "name": "repo-images",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collect all the image file URLs in a GitHub repository",
   "main": "index.js",
   "repository": "https://github.com/zeke/repo-images",
